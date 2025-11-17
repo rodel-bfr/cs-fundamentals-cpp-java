@@ -1,0 +1,29 @@
+# ==================================
+# General
+# ==================================
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code editor settings
+.vscode/
+
+# ==================================
+# C++
+# ==================================
+# Ignore compiled executables
+*.exe
+*.out
+
+# Ignore object files (intermediate build files)
+*.o
+*.obj
+
+# ==================================
+# Java
+# ==================================
+# Ignore compiled Java bytecode
+*.class
+
+# Ignore Java log files
+*.log
