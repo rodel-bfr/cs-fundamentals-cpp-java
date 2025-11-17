@@ -42,20 +42,20 @@ A simple Java console application built to demonstrate core Object-Oriented Prog
 
 ## 📂 Project Structure
 
-    ```text
-    cs-fundamentals-cpp-java/
-    ├── .gitignore
-    ├── README.md                 # <-- This file
-    │
-    ├── cpp-bank-simulator/
-    │   └── main.cpp              # Self-contained C++ application
-    │
-    └── java-bank-account/
-        ├── BankAccount.java      # The BankAccount class (OOP)
-        └── Main.java             # The executable Main class
-    ```
+```text
+cs-fundamentals-cpp-java/
+├── .gitignore
+├── README.md                 # <-- This file
+│
+├── cpp-bank-simulator/
+│   └── main.cpp              # Self-contained C++ application
+│
+└── java-bank-account/
+    ├── BankAccount.java      # The BankAccount class (OOP)
+    └── Main.java             # The executable Main class
+```
 
-    ---
+---
 
 ## 📸 Application Preview
 
@@ -63,49 +63,49 @@ A simple Java console application built to demonstrate core Object-Oriented Prog
 
 Here is a demonstration of the program handling incorrect user input (letters) and illogical input (negative numbers) without crashing.
 
-    ```text
-    Initial account balance: abc
-    Error: Please enter a valid positive number: -100
-    Error: Please enter a valid positive number: 1000
-    Enter the interest rate (%): foo
-    Error: Please enter a valid positive number: 2
-    Enter the credit limit: 500
-    Enter the recurring payment amount: 800
-    Enter the number of months for payment: asd
-    Error: Please enter a valid positive integer: 3
+```text
+Initial account balance: abc
+Error: Please enter a valid positive number: -100
+Error: Please enter a valid positive number: 1000
+Enter the interest rate (%): foo
+Error: Please enter a valid positive number: 2
+Enter the credit limit: 500
+Enter the recurring payment amount: 800
+Enter the number of months for payment: asd
+Error: Please enter a valid positive integer: 3
 
-    Month 1:
-    ---------------------------------------
-    Payment of 800 processed from current balance.
-    Balance before interest: 200
-    Interest applied: 4 (2%)
-    New balance: 204
-    Balance at end of month 1: 204
-    Remaining credit limit: 500
-    ---------------------------------------
+Month 1:
+---------------------------------------
+Payment of 800 processed from current balance.
+Balance before interest: 200
+Interest applied: 4 (2%)
+New balance: 204
+Balance at end of month 1: 204
+Remaining credit limit: 500
+---------------------------------------
 
-    Month 2:
-    ---------------------------------------
-    Insufficient funds! Payment cannot be processed.
-    Remaining credit limit: 500
-    Final account balance: 204
+Month 2:
+---------------------------------------
+Insufficient funds! Payment cannot be processed.
+Remaining credit limit: 500
+Final account balance: 204
 
-    Press Enter to exit...
-    ```
+Press Enter to exit...
+```
 
 ### 2. Java Bank Account (OOP Demo)
 
 This shows the output from the Main.java class, which creates an instance of BankAccount and calls its methods.
 
-    ```text
-    Current balance: 1000.0
-    Payment of 300.0 processed. New balance: 700.0
-    Payment of 150.0 processed. New balance: 550.0
-    Payment of 200.0 processed. New balance: 350.0
-    Insufficient funds to make payment of 500.0
-    Current balance: 350.0
-    Total payments made: 650.0
-    ```
+```text
+Current balance: 1000.0
+Payment of 300.0 processed. New balance: 700.0
+Payment of 150.0 processed. New balance: 550.0
+Payment of 200.0 processed. New balance: 350.0
+Insufficient funds to make payment of 500.0
+Current balance: 350.0
+Total payments made: 650.0
+```
 
 ---
 
