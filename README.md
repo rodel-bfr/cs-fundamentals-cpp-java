@@ -36,24 +36,7 @@ A simple Java console application built to demonstrate core Object-Oriented Prog
 
 * **C++** (specifically C++11 features)
 * **Java** (built and run with OpenJDK 17)
-* **Compiler/Runtime:** g++ (MinGW) for C++, Java Development Kit (JDK) for Java
-
----
-
-## 📂 Project Structure
-
-```text
-cs-fundamentals-cpp-java/
-├── .gitignore
-├── README.md                 # <-- This file
-│
-├── cpp-bank-simulator/
-│   └── main.cpp              # Self-contained C++ application
-│
-└── java-bank-account/
-    ├── BankAccount.java      # The BankAccount class (OOP)
-    └── Main.java             # The executable Main class
-```
+* **Compiler/Runtime:** g++ (MinGW) for C++, Java Development Kit (JDK) for Java.
 
 ---
 
@@ -109,16 +92,43 @@ Total payments made: 650.0
 
 ---
 
+## 📂 Project Structure
+
+```text
+cs-fundamentals-cpp-java/
+├── .gitignore
+├── README.md                 # <-- This file
+│
+├── cpp-bank-simulator/
+│   └── main.cpp              # Self-contained C++ application
+│
+└── java-bank-account/
+    ├── BankAccount.java      # The BankAccount class (OOP)
+    └── Main.java             # The executable Main class
+```
+
+---
+
 ## 🚀 Getting Started
+
+### 📋 Prerequisites
+
+To run these projects, you need the following installed on your system:
+
+* **C++ Compiler:** g++ (via MinGW on Windows) or clang/gcc (macOS/Linux).
+* **Java Development Kit (JDK):** Version 17 or higher.
+* **Git:** To clone the repository.
+
+### 🔧 Installation & Execution
 
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/rodel-bfr/cs-fundamentals-cpp-java.git](https://github.com/rodel-bfr/cs-fundamentals-cpp-java.git)
+    git clone https://github.com/rodel-bfr/cs-fundamentals-cpp-java.git
     cd cs-fundamentals-cpp-java
     ```
 
-### How to Run the C++ Bank Simulator
+### ▶️ How to Run the C++ Bank Simulator
 
 This requires a C++ compiler like g++ to be installed and available in your PATH.
 
@@ -140,7 +150,7 @@ This requires a C++ compiler like g++ to be installed and available in your PATH
     # On macOS/Linux, use ./cpp_bank_simulator
     ```
 
-### How to Run the Java Bank Account Demo
+### ▶️ How to Run the Java Bank Account Demo
 
 This requires the Java Development Kit (JDK) to be installed and available in your PATH.
 
